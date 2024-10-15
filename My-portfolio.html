@@ -1,105 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
-    <style>
-       *{
-        margin: 0;
-        padding: 0;
-         font-family: "Playwrite DE Grund", cursive;
-       }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-       /* body{
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <script src="porfoliojs.js" defer></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Playwrite DE Grund", cursive;
+
+    }
+
+    /* body{
         height: 100vh;
        } */
 
 
-       /* ----------------------------------------------NAVBAR------------------------------------------------------ */
+    /* ----------------------------------------------NAVBAR------------------------------------------------------ */
 
 
-       
 
-      ul{
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 20px;
-        color: rgb(31, 188, 177);
-        background-color: rgb(4, 156, 146);
-        font-size: 20px;
-        /* text-decoration: underline; */
-      }
 
-      /* nav{
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      color: rgb(31, 188, 177);
+      background-color: rgb(4, 156, 146);
+      font-size: 20px;
+      /* text-decoration: underline; */
+    }
+
+    /* nav{
         background-color: aqua;
       } */
 
-      li{
-        /* background-color: azure; */
-        padding: 8px;
-        font-weight: 600;
-        cursor: pointer;
-      }
+    li {
+      /* background-color: azure; */
+      padding: 8px;
+      font-weight: 600;
+      cursor: pointer;
+    }
 
-      .name{
-        border-radius: 35%;
-        background-color: azure;
-        border: 2px azure solid;
-      }
+    .name {
+      border-radius: 35%;
+      background-color: azure;
+      border: 2px azure solid;
+    }
 
-      .name:hover{
-        border: 2px white solid;
-        color: white;
-        background-color: rgb(45, 207, 196);
-        /* text-decoration: underline; */
-      }
+    .name:hover {
+      border: 2px white solid;
+      color: white;
+      background-color: rgb(45, 207, 196);
+      /* text-decoration: underline; */
+    }
 
-      .btn-nav{
-        border: 2px azure solid;
-        background-color: azure;
-        border-radius: 50px;
-        padding: 10px;
-        color: rgb(151, 20, 20);
-      }
+    .btn-nav {
+      border: 2px azure solid;
+      background-color: azure;
+      border-radius: 50px;
+      padding: 10px;
+      color: rgb(151, 20, 20);
+    }
 
-      .btn-nav:hover{
-        border: 2px white solid;
-        color: white;
-        background-color: rgb(151, 20, 20);
-        /* text-decoration: underline; */
-      }
+    .btn-nav:hover {
+      border: 2px white solid;
+      color: white;
+      background-color: rgb(151, 20, 20);
+      /* text-decoration: underline; */
+    }
 
-      .nav-1{
-        color: azure;
-      }
+    .nav-1 {
+      color: azure;
+    }
 
-      .nav-1:hover{
-        text-decoration: underline;
-        color: rgb(45, 207, 196);
-      }
+    .nav-1:hover {
+      text-decoration: underline;
+      color: rgb(45, 207, 196);
+    }
 
-      .nav-bar{
-        position: sticky;
-        top: 0;
-        bottom: auto;
-        z-index: 3;
-       }
+    .nav-bar {
+      position: sticky;
+      top: 0;
+      bottom: auto;
+      z-index: 3;
+    }
 
 
-      /* ----------------------------------------------SHAPE---------------------------------------------------------- */
+    /* ----------------------------------------------SHAPE---------------------------------------------------------- */
 
-      /* .shape{
+    /* .shape{
         display: flex;
         justify-content: end;
         align-items: center;
@@ -124,7 +140,7 @@
         shape-rendering: initial;
       } */
 
-      /* .shape-img img{
+    /* .shape-img img{
         height: 430px;
         width: 320px;
         border-radius: 15% 23% 18% 38%;
@@ -138,7 +154,7 @@
       } */
 
 
-       /* .shape-1{
+    /* .shape-1{
         height: 500px;
         width: 500px;
         background-color: bisque;
@@ -148,11 +164,11 @@
         -webkit-mask-size: 100%; 
        } */
 
-       /* .image{
+    /* .image{
         -webkit-mask-image: url("https://imgs.search.brave.com/SYge_LfWxrn7I2reLrtQh4uyjeeIfLcTcqy1Q1jmPTY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bW9ja29mdW4uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE5/LzEwL3Bob3RvLWVk/aXRvci1tb2Nrb2Z1/bi03Njh4NTc2Lmpw/Zw");
        } */
 
-       /* .shape-1 {
+    /* .shape-1 {
         height: 100vh;
         width: 100vw;
         background: rgb(39, 151, 114);
@@ -161,277 +177,281 @@
 
 
 
-/* -----------------------------------------------HOME-PAGE--------------------------------------------------------------- */
+    /* -----------------------------------------------HOME-PAGE--------------------------------------------------------------- */
 
-   .txt-homepage{
-    line-height: 80px;
-   }
+    .txt-homepage {
+      line-height: 80px;
+    }
 
-   /* .homepage{
+    /* .homepage{
     height: 80vh;
    } */
 
-   .homepage{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
-    /* height: 80vh; */
-    /* height: 100%; */
-    background: linear-gradient( #c4e0e5,#4ca1af);
-   }
+    .homepage {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 30px;
+      /* height: 80vh; */
+      /* height: 100%; */
+      background: linear-gradient(#c4e0e5, #4ca1af);
+    }
 
-   .image-1{
-    /* display: flex; */
-    
-    /* aspect-ratio: 16/16 ; */
-    object-fit: cover;
-   }
+    .image-1 {
+      /* display: flex; */
 
-   .image {
-    border-radius: 50%;
-    border: 4px rgb(4, 156, 146) solid;
-    /* background-size: cover; */
-    max-width: 100%;
-    transform-origin: center;
-    transition: transform 0.4s ease-in-out ;
-    overflow: hidden;
-    /* height: 100%; */
-    object-fit: cover;
-   }
+      /* aspect-ratio: 16/16 ; */
+      object-fit: cover;
+    }
 
-   .image-1 img:hover{
-     transform: scale(1.1);
-     /* border-radius: 50%; */
-   }
+    .image {
+      border-radius: 50%;
+      border: 4px rgb(4, 156, 146) solid;
+      /* background-size: cover; */
+      max-width: 100%;
+      transform-origin: center;
+      transition: transform 0.4s ease-in-out;
+      overflow: hidden;
+      /* height: 100%; */
+      object-fit: cover;
+    }
 
-   .logo{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-   }
+    .image-1 img:hover {
+      transform: scale(1.1);
+      /* border-radius: 50%; */
+    }
 
-   .hello{
-    font-size: 28px;
-    text-align: center;
-   }
+    .logo {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
 
-   .shama{
-    text-align: center;
-    font-size: 70px;
-    color: rgb(164, 39, 39);
-    font-family: "Oswald", "Roboto Condensed", "Gowun Batang", serif ;
-    font-optical-sizing: auto;
+    .hello {
+      font-size: 28px;
+      text-align: center;
+    }
 
-    /* margin: 5px 0px 0px 0px; */
-    /* margin: 5px 0; */
-   }
+    .shama {
+      text-align: center;
+      font-size: 70px;
+      font-family: "Oswald", "Roboto Condensed", "Gowun Batang", serif;
+      font-optical-sizing: auto;
 
-   .download-btn a{
-    text-decoration: none;
-    font-size: 27px;
-    padding: 8px;
-    color: bisque;
-    border-radius: 20px;
-    text-align: center;
-    background-color: rgb(4, 156, 146);
-    border: 2px bisque solid;
-    font-weight: 700;
-   }
+      /* font-family: "Roboto Condensed", sans-serif; */
 
-   .download-btn{
-    text-align: center;
-   }
+      color: rgb(164, 39, 39);
+      /* margin: 5px 0px 0px 0px; */
+      /* margin: 5px 0; */
+    }
 
-   .download-btn a:hover{
-    background-color: bisque;
-    color: rgb(4, 156, 146);
-    border: 2px rgb(4, 156, 146) solid;
-   }
+    .download-btn a {
+      text-decoration: none;
+      font-size: 27px;
+      padding: 5px 8px;
+      color: #ffffff;
+      border-radius: 20px;
+      text-align: center;
+      background-color: rgb(4, 156, 146);
+      border: 2px bisque solid;
+      font-weight: 700;
+    }
 
-   .fa-github {
-    font-size: 45px;
-    /* background-color: black; */
-    color: black;
-    border: none;
-   }
+    .download-btn {
+      text-align: center;
+    }
 
-   .fa-github:hover{
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-   }
+    .download-btn a:hover {
+      background-color: bisque;
+      color: rgb(4, 156, 146);
+      border: 2px rgb(4, 156, 146) solid;
+    }
 
-   .fa-linkedin{
-    font-size: 45px;
-    color: rgb(17, 17, 199);
-    border: none;
-   }
+    .fa-github {
+      font-size: 45px;
+      /* background-color: black; */
+      color: black;
+      border: none;
+    }
 
-   .fa-linkedin:hover{
-    background-color: rgb(17, 17, 199) ;
-    color: aliceblue;
-   }
+    .fa-github:hover {
+      background-color: rgb(0, 0, 0);
+      color: aliceblue;
+    }
 
-   /* .logo{
+    .fa-linkedin {
+      font-size: 45px;
+      color: rgb(17, 17, 199);
+      border: none;
+    }
+
+    .fa-linkedin:hover {
+      background-color: rgb(17, 17, 199);
+      color: aliceblue;
+    }
+
+    /* .logo{
     margin: 60px;
     gap: 10px;
    } */
 
-   .detail{
-    /* margin: 10px 0 30px 0; */
-    font-size: 25px;
-    text-align: center;
-   }
+    .detail {
+      /* margin: 10px 0 30px 0; */
+      font-size: 25px;
+      text-align: center;
+    }
 
 
-   /* -----------------------------------------------ABOUT ME---------------------------------------------------------- */
+    /* -----------------------------------------------ABOUT ME---------------------------------------------------------- */
 
-   /* .aboutme{
+    /* .aboutme{
     height: 30vh;
    } */
-   .aboutme{
-    background: linear-gradient(#4ca1af, #81c1cd);
-    /* height: 30%; */
-    line-height: 30px;
-    padding: 20px;
-    /* gap: 80px; */
-   }
+    .aboutme {
+      background: linear-gradient(#4ca1af, #81c1cd);
+      /* height: 30%; */
+      line-height: 30px;
+      padding: 20px;
+      /* gap: 80px; */
+    }
 
-   .two-box{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /* width: 80%; */
-    margin: 0 auto;
-   }
+    .two-box {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      /* width: 80%; */
+      margin: 0 auto;
+    }
 
-   .box-exp{
-    border: 3px rgb(58, 55, 55) solid;
-    position: relative;
-    padding: 10px;
-   }
+    .box-exp {
+      border: 3px rgb(58, 55, 55) solid;
+      position: relative;
+      padding: 10px;
+      background-color: transparent;
+    }
 
-   .box-logo{
-    text-align: center;
-   }
-
-   
-
-
-   .fa-award{
-    /* text-align: center; */
-    position: absolute;
-    top: -15px;
-    font-size: 25px;
-    border: 2px black solid;
-    border-radius: 50%;
-    padding: 4px;
-    background-color: #4ca1af;
-   }
-
-   .box-edu{
-    border: 3px rgb(58, 55, 55) solid;
-    position: relative;
-    padding: 10px;
-   }
-
-   .fa-graduation-cap{
-    position: absolute;
-    /* top: 5px; */
-    top: -15px;
-    font-size: 25px;
-    border: 2px black solid;
-    border-radius: 50%;
-    padding: 4px;
-    background-color: #4ca1af;
-   }
-
-  
-   .exp-discription{
-    font-size: 20px;
-    text-align: center;
-    color: #414445;
-   }
-
-   .edu-discription{
-    font-size: 20px;
-    text-align: center;
-    color: #414445;
-   }
-
-   .exp-txt{
-    font-size: 22px;
-    font-weight: 700;
-    text-align: center;
-    margin: 20px 10px 15px 10px;
-   }
-
-   .exp-txt:hover{
-    font-size: 28px;
-    text-decoration: underline;
-   }
-
-   .edu-txt{
-    font-size: 22px;
-    font-weight: 700;
-    text-align: center;
-    margin: 20px 10px 15px 10px;
-   }
-
-   .edu-txt:hover{
-    font-size: 28px;
-    text-decoration: underline;
-   }
+    .box-logo {
+      text-align: center;
+    }
 
 
-   .txt-ab{
-    font-size: 30px;
-    font-weight: 600;
-    color: #0a5965 ;
-   }
-
-   .about-me-main{
-    background: linear-gradient( #81c1cd, #c4e0e5 );
-       
-   }
 
 
-   .aboutme-text{
-    /* height: 30%; */
-    display: flex;
-    line-height: 40px;
-    padding: 30px;
-    width: 80%;
-    margin: 0 auto;
-   }
+    .fa-award {
+      /* text-align: center; */
+      position: absolute;
+      top: -15px;
+      font-size: 25px;
+      border: 2px black solid;
+      border-radius: 50%;
+      padding: 4px;
+      background-color: transparent;
+    }
 
-   .txt-objective{
-    text-align: center;
-    /* padding: 10px; */
-    font-size: 20px;
-    color: #242525;
-    margin-left: 10px;
-   }
+    .box-edu {
+      border: 3px rgb(58, 55, 55) solid;
+      position: relative;
+      padding: 10px;
+      background-color: transparent;
+    }
 
-   .about{
-    font-size: 50px;
-    font-weight: 600;
-    color: rgb(0, 91, 99);
-    margin: 0px 0 40px 15px;
-    text-align: center;
-    position: relative;
-    /* top: 30px; */
-    z-index: 1;
-   }
-
-   .about:hover{
-    /* color: ; */
-    text-decoration: underline;
-   }
+    .fa-graduation-cap {
+      position: absolute;
+      /* top: 5px; */
+      top: -15px;
+      font-size: 25px;
+      border: 2px black solid;
+      border-radius: 50%;
+      padding: 4px;
+      background-color: transparent;
+    }
 
 
-   /* .line-1{
+    .exp-discription {
+      font-size: 20px;
+      text-align: center;
+      color: #414445;
+    }
+
+    .edu-discription {
+      font-size: 20px;
+      text-align: center;
+      color: #414445;
+    }
+
+    .exp-txt {
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      margin: 20px 10px 15px 10px;
+    }
+
+    .exp-txt:hover {
+      font-size: 28px;
+      text-decoration: underline;
+    }
+
+    .edu-txt {
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      margin: 20px 10px 15px 10px;
+    }
+
+    .edu-txt:hover {
+      font-size: 28px;
+      text-decoration: underline;
+    }
+
+
+    .txt-ab {
+      font-size: 30px;
+      font-weight: 600;
+      color: #0a5965;
+    }
+
+    .about-me-main {
+      background: linear-gradient(#81c1cd, #c4e0e5);
+
+    }
+
+
+    .aboutme-text {
+      /* height: 30%; */
+      display: flex;
+      line-height: 40px;
+      padding: 30px;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .txt-objective {
+      text-align: center;
+      /* padding: 10px; */
+      font-size: 20px;
+      color: #242525;
+      margin-left: 10px;
+    }
+
+    .about {
+      font-size: 50px;
+      font-weight: 600;
+      color: rgb(0, 91, 99);
+      margin: 0px 0 40px 15px;
+      text-align: center;
+      position: relative;
+      /* top: 30px; */
+      z-index: 1;
+    }
+
+    .about:hover {
+      /* color: ; */
+      text-decoration: underline;
+    }
+
+
+    /* .line-1{
      position: absolute;
      left: 190px;
      top: 90vh;
@@ -440,399 +460,717 @@
      size: "3";
    } */
 
-   .txt-aboutme{
-    padding: 30px;
-   }
+    .txt-aboutme {
+      padding: 30px;
+    }
 
 
-   /* ------------------------------------------------------PROJECT--------------------------------------------------- */
+    /* ------------------------------------------------------PROJECT--------------------------------------------------- */
 
 
-   /* .project-main{
+    /* .project-main{
     margin: 10px;
     padding: 10px;
    } */
 
-   .project-main{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 10px 0 10px;
-   }
-
-   
-
-   .project{
-    background: linear-gradient(#c4e0e5,#4ca1af);
-    /* height: 100%; */
-    /* height: 100vh; */
-   }
-
-   .pro-detail{
-     display: block;
-     justify-content: space-evenly;
-     padding: 8px;
-     margin: 50px;
-     font-size: 19px;
-     max-width: 480px;
-     /* margin: 10px auto; */
-     border: 5px #4ca1af groove;
-     border-radius: 20px;
-     /* gap: 150px; */
-   }
-
-   .pro-detail:hover{
-    box-shadow: 2px 2px 20px rgb(0, 0, 0);
-   }
-
-   .double-btn{
-    margin: 20px 0;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-   }
-
-   .github-btn a{
-     text-decoration: none;
-     padding: 5px;
-     border-radius: 10px;
-     border: 2px #2c9cb0 solid;
-     background-color: #81c1cd;
-     /* color: #242525; */
-   }
-
-   .github-btn:hover{
-    text-decoration: underline;
-   }
-
-   .demo-btn a{
-    text-decoration: none;
-     padding: 5px;
-     border-radius: 10px;
-     border: 2px #2c9cb0 solid;
-     background-color: #81c1cd;
-   }
-
-   .demo-btn:hover{
-    text-decoration: underline;
-   }
-
-   .pro-head{
-    text-align: center;
-    font-size: 50px;
-    font-weight: 600;
-    color: rgb(0, 91, 99);
-   }
-
-   .pro-heading{
-    padding: 30px;
-
-   }
-
-   .pro-head:hover{
-    text-decoration: underline;
-   }
-
-   .pro-dis{
-    margin-top: 20px;
-   }
-
-   .imgg{
-    text-align: center;
-    /* border-radius: 50%; */
-    /* border: 4px rgb(4, 156, 146) solid; */
-    background-size: cover;
-    /* max-width: 100%; */
-    transform-origin: center;
-    /* transition: 0.4s ease-in-out ; */
-    overflow: hidden;
-    /* height: 100%; */
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-   }
-
-   .imgg img:hover{
-     transform: scale(1.3);
-     transition: 0.4s ease-in-out;
-     /* border-radius: 50%; */
-   }
-
-
-/* -----------------------------------------------------CONTACT ME---------------------------------------------------- */
-
-   .contact-me{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 19px;
-    padding: 10px;
-    background:  rgb(83, 81, 81);
-    height: 120px;
-    color: #232627;
-    cursor: pointer;
-    /* line-height: 25px; */
-   }
-
-   .feel-free{
-    color: rgb(4, 156, 146);
-    font-weight: 600;
-    font-size: 30px;
-   }
-
-/*    .email:hover{
-    color: black;
-    font-size: 28px;
-   }
-
-   .number:hover{
-    color: black;
-    font-size: 28px;
-   }
-
-   .location:hover{
-    color: black;
-    font-size: 28px;
-   }
- */
-
-   @media screen and (max-width:800px){
-            .box-edu{  margin-top: 40px;}
-        }
+    .project-main {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 10px 0 10px;
+    }
 
 
 
+    .project {
+      background: linear-gradient(#c4e0e5, #4ca1af);
+      /* height: 100%; */
+      /* height: 100vh; */
+    }
 
-        
-        @media screen and (max-width:800px){
-            .nav-1{  display: none;}
-        }
+    .pro-detail {
+      display: block;
+      /* justify-content: space-evenly; */
+      padding: 8px;
+      margin: 10px 20px;
+      /* font-size: 19px; */
+      max-width: 350px;
+      /* margin: 10px auto; */
+      border: 5px #4ca1af groove;
+      background-color: transparent;
+      height: 400px;
+      border-radius: 20px;
+      /* gap: 150px; */
+    }
 
-        @media screen and  (max-width:800px) {
-          .btn-nav { display:none; }
-        }
+    .pro-detail:hover {
+      box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.584);
+    }
+
+    .double-btn {
+      margin: 20px 0;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .github-btn a {
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 10px;
+      border: 2px #2c9cb0 solid;
+      background-color: #81c1cd;
+      /* color: #242525; */
+    }
+
+    .github-btn:hover {
+      text-decoration: underline;
+    }
+
+    .demo-btn a {
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 10px;
+      border: 2px #2c9cb0 solid;
+      background-color: #81c1cd;
+    }
+
+    .demo-btn:hover {
+      text-decoration: underline;
+    }
+
+    .pro-head {
+      text-align: center;
+      font-size: 50px;
+      font-weight: 600;
+      color: rgb(0, 91, 99);
+    }
+
+    .pro-heading {
+      padding: 30px;
+
+    }
+
+    .pro-head:hover {
+      text-decoration: underline;
+    }
+
+    .pro-dis {
+      /* margin-top: 20px; */
+      font-size: 12px;
+
+    }
+
+    .imgg {
+      text-align: center;
+      /* border-radius: 50%; */
+      /* border: 4px rgb(4, 156, 146) solid; */
+      background-size: cover;
+      /* max-width: 100%; */
+      transform-origin: center;
+      /* transition: 0.4s ease-in-out ; */
+      overflow: hidden;
+      /* height: 100%; */
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .imgg img:hover {
+      transform: scale(1.3);
+      transition: 0.4s ease-in-out;
+      /* border-radius: 50%; */
+    }
 
 
-        @media screen and  (max-width:800px) {
-          .nav-bar { text-align: center;  }
-        }
+    /* -----------------------------------------------------CONTACT ME---------------------------------------------------- */
 
-        @media screen and  (max-width:800px) {
-          .txt-objective { line-height: normal;  }
-        }
+    .contact-me {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 19px;
+      padding: 10px;
+      background: rgb(83, 81, 81);
+      height: 120px;
+      color: #ffffff;
+      cursor: pointer;
+      /* line-height: 25px; */
+    }
 
-        @media screen and  (max-width:800px) {
-          .aboutme-text { display: block;  }
-        }
+    .feel-free {
+      color: rgb(4, 156, 146);
+      font-weight: 600;
+      font-size: 30px;
+    }
 
-        @media screen and  (max-width:800px) {
-          .txt-ab { text-align: center; 
-          margin-bottom: 10px; }
-        }
+    .feel-free a {
+      color: rgb(4, 156, 146);
+    }
 
-        @media screen and  (max-width:800px) {
-          .pro-detail { width: 80%; }
-        }
+    .email a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
 
-        @media screen and  (max-width:800px) {
-          .contact-me { height: 190px; }
-        }
+    }
+
+    .number a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+
+    }
+
+    .location a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+
+    }
+
+
+
+    /* /--------------------------------------------------------------------------------------------------------------------------- */
+
+    .skills-carousel {
+      display: flex;
+      /* background-color: linear-gradient(#c4e0e5, #4ca1af); */
+      background-size: cover;
+      flex-wrap: wrap;
+      padding: 25px;
+      gap: 35px;
+      /* margin-bottom: 3px; */
+      /* justify-content: center; */
+    }
+
+    .skills-card {
+      padding: 10px;
+      background-color: transparent;
+    }
 
 
 
 
+    .skills-img {
+      padding: 10px;
+      /* background-color: transparent; */
+      border-radius: 20px;
+      object-fit: cover;
+      /* gap: 20px; */
+    }
 
-        
+    .skills-img img {
 
-    </style>
+      width: 100px;
+      height: 100px;
+
+    }
+
+    .skils-head {
+      text-align: center;
+      font-size: 50px;
+      font-weight: 600;
+      color: rgb(0, 91, 99);
+    }
+
+    .skils-head:hover {
+      text-decoration: underline;
+    }
+
+    .skills {
+      padding: 25px;
+      background: linear-gradient(#c4e0e5, #c4e0e5);
+
+    }
+
+    .skills-carousel {
+      background-color: transparent;
+    }
+
+    .skills-box {
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    #preloader {
+      background: rgb(0, 0, 0) url("https://media2.giphy.com/media/uIJBFZoOaifHf52MER/200w.gif?cid=6c09b952yvohhsxafzf69bnjpzvmz1jjiur6xrou7buzt5dx&ep=v1_gifs_search&rid=200w.gif&ct=g") no-repeat center center;
+      background-size: 15%;
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: 99999;
+      /* transition: all 0.6s ease-out; */
+    }
+
+    .iframe iframe{
+      display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:800px) {
+      .box-edu {
+        margin-top: 40px;
+      }
+    }
+
+
+    @media screen and (max-width:800px) {
+      .nav-1 {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width:800px) {
+      .btn-nav {
+        display: none;
+      }
+    }
+
+
+    @media screen and (max-width:800px) {
+      .nav-bar {
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width:800px) {
+      .txt-objective {
+        line-height: normal;
+      }
+    }
+
+    @media screen and (max-width:800px) {
+      .aboutme-text {
+        display: block;
+      }
+    }
+
+    @media screen and (max-width:800px) {
+      .txt-ab {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    }
+
+    @media screen and (max-width:800px) {
+      .pro-detail {
+        width: 80%;
+      }
+    }
+
+    @media screen and (max-width:800px) {
+      .contact-me {
+        height: 190px;
+        width: 100px;
+        font-size: 10px;
+      }
+    }
+
+
+    @media screen and (max-width:800px) {
+      .txt-homepage {
+        font-size: 16px;
+      }
+    }
+
+
+    @media screen and (max-width:800px) {
+      .skills-carousel {
+        padding: 0%;
+        gap: 0%;
+        margin: 0%;
+      }
+    }
+  </style>
 
 
 
 
 
 </head>
+
 <body>
 
-    <div class="nav-bar">
-        <nav>
-            <ul>
-                <li class="name"> Shama.Dev </li>
-                <li class="nav-1"> Home </li>
-                <li class="nav-1"> About me </li>
-                <li class="nav-1"> Projects </li>
-                <li class="btn-nav"> Contact </li>
-            </ul>
-        </nav>
+
+
+  <!-- ------------------------------------------------PREloader-------------------------------------------------------------- -->
+
+  <div id="preloader" class="iframe">
+
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=CzlJ9OYtoxI41pqo"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=CzlJ9OYtoxI41pqo"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+ 
+ 
+
+
+</div>
+
+  <!-- ---------------------------------------------------NAVBARR-------------------------------------------------- -->
+
+
+
+  <div class="nav-bar">
+    <nav>
+      <ul>
+        <li class="name"> Shama.Dev </li>
+        <li class="nav-1"> Home </li>
+        <li class="nav-1"> About me </li>
+        <li class="nav-1"> Projects </li>
+        <li class="btn-nav"> Contact </li>
+
+
+
+
+
+      </ul>
+    </nav>
+  </div>
+
+
+  <!-- ------------------------------------------------------------------------------------------------------------ -->
+
+  <div class="homepage">
+
+    <div class="image-1">
+      <img src="Snapchat-460317394.jpg" alt="" height="480px" width="400px" class="image">
+    </div>
+
+    <div class="txt-homepage">
+
+      <p class="hello"> Hello I'm </p>
+      <p class="shama"> SHAMA PARVEEN </p>
+      <p class="detail"> I'm a Web designer & Frontend devloper</p>
+      <p class="download-btn"> <a target="_blank" href="CV_2024090310280572.pdf"> Download CV </a> </p>
+
+      <div class="logo">
+        <p class="logo-home"><a target="_blank" href="https://github.com/Shama556?tab=repositories"> <i
+              class="fa-brands fa-github"></i> </a></p>
+        <p class="logo-home"> <a target="_blank"
+            href="https://www.linkedin.com/in/shama-parveen-3770a42a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <i class="fa-brands fa-linkedin"></i> </a></p>
+      </div>
+
     </div>
 
 
-    <!-- ------------------------------------------------------------------------------------------------------------ -->
+  </div>
 
-    <div class="homepage">
 
-      <div class="image-1">
-        <img src="Snapchat-460317394.jpg" alt="" height="480px" width="400px" class="image">
-      </div>
+  <!-- ---------------------------------------------------------------------------------------------------------------- -->
 
-        <div class="txt-homepage">
 
-          <p class="hello">   Hello I'm  </p>
-          <p class="shama"> SHAMA PARVEEN  </p>
-          <p class="detail"> I'm a Web designer  &  Frontend devloper</p>
-          <p class="download-btn"> <a target="_blank" href="CV_2024090310280572.pdf"> Download CV </a> </p>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
 
-          <div class="logo">
-          <p class="logo-home"><a  target="_blank" href="https://github.com/Shama556?tab=repositories"> <i class="fa-brands fa-github"></i> </a></p>
-          <p class="logo-home"> <a target="_blank"  href="https://www.linkedin.com/in/shama-parveen-3770a42a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i class="fa-brands fa-linkedin"></i> </a></p>
+
+          <div class="aboutme">
+            <div class="txt-aboutme">
+              <p class="about"> About me </p>
+            </div>
+
+            <div class="two-box">
+              <div class="box-exp">
+                <p class="box-logo"> <i class="fa-solid fa-award"></i> </p>
+                <p class="exp-txt"> Experience </p>
+                <p class="exp-discription">
+                  Intern <br>
+                  During internship I learned a lot of new things <br>
+                  I worked in Namrata Universal as a web devloper.
+                </p>
+              </div>
+
+
+              <div class="box-edu">
+                <p class="box-logo"> <i class="fa-solid fa-graduation-cap"></i> </p>
+                <p class="edu-txt"> Education </p>
+                <p class="edu-discription">
+                  12<sup>th</sup>
+                  { Jamia millia islamia (Private) } <br>
+                  Grauation <br>
+                  BCA from IIMT Greater Noida (CCSU)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-me-main">
+            <div class="aboutme-text">
+              <p class="txt-ab"> Objective:-</p>
+              <p class="txt-objective"> To obtain an entry-level position at your respected organization and utilize the
+                educational
+                qualifications I've obtained at [ IIMT greater Noida ]. Further more I'd like to utilize my skills and
+                provide a professional service to your organisation by applying and honing my knowledge. Working
+                in a challenging and motivating environment. </p>
+            </div>
+          </div>
+
+
+
         </div>
+      </div>
+    </div>
+  </section>
 
-        </div> 
 
-      
+
+
+
+  <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+
+  <div class="skills">
+    <div class="skils-head">
+      Skills
     </div>
 
 
-    <!-- ---------------------------------------------------------------------------------------------------------------- -->
+    <div class="skills-box">
+
+      <ul class="skills-carousel">
+        <li class="skills-card">
+          <div class="skills-img">
+            <img src="./HTML5_logo_and_wordmark.svg.png" alt="html" width="100%">
+          </div>
+        </li>
+
+        <li class="skills-card">
+          <div class="skills-img">
+            <img src="https://brandslogos.com/wp-content/uploads/images/large/css-logo.png" alt="html" width="100%">
+          </div>
+        </li>
+
+        <li class="skills-card">
+          <div class="skills-img">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png"
+              alt="html" width="100%">
+          </div>
+        </li>
+
+        <!-- <li class="skills-card">
+          <div class="skills-img">
+            <img src="./sql-database-sql-azure-icon-1955x2048-4pmty46t.png" alt="html" width="100%">
+          </div>
+        </li> -->
+
+        <li class="skills-card">
+          <div class="skills-img">
+            <img src="./gsap-greensock.svg" alt="html" width="100%">
+          </div>
+        </li>
+
+        <li class="skills-card">
+          <div class="skills-img">
+            <img src="https://cdn-icons-png.freepik.com/512/65/65381.png" alt="html" width="100%">
+          </div>
+        </li>
+
+        <li class="skills-card">
+          <div class="skills-img">
+            <img src="./WordPress-logotype-wmark-white.png" alt="html" width="100%">
+          </div>
+        </li>
+
+        <li class="skills-card">
+          <div class="skills-img">
+            <img src="https://www.pngkit.com/png/full/954-9549328_bootstrap-featured-image-bootstrap-3-logo-png.png"
+              alt="html" width="100%">
+          </div>
+        </li>
 
 
-    <div class="aboutme">
-      <div class="txt-aboutme">
-        <p class="about"> About me </p>
-      </div>
-
-      <div class="two-box">
-        <div class="box-exp" data-aos="fade-right">
-        
-          <!-- <div class="logo"> -->
-          <p class="box-logo"> <i class="fa-solid fa-award"></i> </p>
-        <!-- </div> -->
-          <p class="exp-txt"> Experience </p>
-          <p class="exp-discription">
-            Intern <br>
-            During internship I learned a lot of new things <br>
-            I worked in Namrata Universal as a web devloper.
-          </p>
-        </div>
-        <div class="box-edu" data-aos="fade-left" >
-          <p class="box-logo"> <i class="fa-solid fa-graduation-cap"></i> </p>
-          <p class="edu-txt"> Education </p>
-          <p class="edu-discription"> 
-            12<sup>th</sup>
-            { Jamia millia islamia (Private) } <br>
-            Grauation <br>
-            BCA from IIMT Greater Noida (CCSU)
-          </p>
-        </div>
-      </div>
+      </ul>
     </div>
 
-    <div class="about-me-main">
-      <div class="aboutme-text">
-        <p class="txt-ab"> Objective:-</p>
-        <p class="txt-objective"> To obtain an entry-level position at your respected organization and utilize the educational
-          qualifications I've obtained at [ IIMT greater Noida ]. Further more I'd like to utilize my skills and
-          provide a professional service to your organisation by applying and honing my knowledge. Working
-          in a challenging and motivating environment. </p>
+
+
+
+  </div>
+
+
+  <!-- 
+    <section class="Footer-img">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="owl-carousel foot-img owl-theme p-0">
+
+
+                  <div class="skills-img">
+                    <img src="./HTML5_logo_and_wordmark.svg.png" alt="html" width="200px"  >
+                  </div>
+
+                  <div class="skills-img">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/css-logo.png" alt="html" width="200px" height="200px" >
+                  </div>
+
+                  <div class="skills-img">
+                    <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="html" width="200px" height="200px" >
+                   </div>
+
+                   <div class="skills-img">
+                    <img src="./sql-database-sql-azure-icon-1955x2048-4pmty46t.png" alt="html" width="200px" height="200px" >
+                   </div>
+
+                   <div class="skills-img">
+                    <img src="./gsap-greensock.svg" alt="html" width="200px" height="200px" >
+                   </div>
+
+                   <div class="skills-img">
+                    <img src="https://cdn-icons-png.freepik.com/512/65/65381.png" alt="html" width="200px" height="200px" >
+                   </div>
+
+                   <div class="skills-img">
+                    <img src="./WordPress-logotype-wmark-white.png" alt="html" width="200px" height="200px" >
+                   </div>
+                  
+                   <div class="skills-img">
+                    <img src="https://www.pngkit.com/png/full/954-9549328_bootstrap-featured-image-bootstrap-3-logo-png.png" alt="html" width="200px" height="200px" >
+                   </div>
+
+              </div>
+          </div>
       </div>
+          
+  </section>
+
+
+   -->
+
+
+
+
+  <!-- --------------------------------------------------------------------------------------------------------- -->
+
+
+  <div class="project">
+
+    <div class="pro-heading">
+      <p class="pro-head"> Notable Project </p>
     </div>
 
-      <!-- --------------------------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------Caratlitz-clone-------------------------------------------- -->
 
-      
-      <div class="project">
+    <div class="project-main">
 
-        <div class="pro-heading">
-          <p class="pro-head"> Notable Project </p>
-        </div>
-
-        <!-- --------------------------------------------Caratlitz-clone-------------------------------------------- -->
-       
-        <div class="project-main">
-       
-        <div class="pro-detail" data-aos="fade-right">
-          <div class="pro-img">
-            <p class="imgg"><img src="Screenshot 2024-09-14 154031.png" alt="" width="400px"></p>
-          </div>
-
-          <div class="pro-dis">
-            <div class="pro-discription">
-              “🎬 Excited to share my latest project for Namrata Universal 
-              - CaratGlitz is a sophisticated e-commerce platform designed for jewelry enthusiasts,
-               showcasing a wide range of exquisite jewelry collections. Built using Html and css, 
-               this project aims to provide a seamless shopping experience with a modern user interface.”
-            </div>
-
-            <div class="double-btn">
-              <div class="github-btn">
-                  <a target="_blank" href="https://github.com/Shama556/Caratlitz-clone"> Github <i class="fa-brands fa-github-alt"></i></a>
-              </div>
-              <div class="demo-btn">
-                 <a target="_blank" href="https://shama556.github.io/Caratlitz-clone/navbar.html"> Live demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-
-        <!-- ------------------------------------------Amazon-clone------------------------------------------- -->
-
-
-        <div class="pro-detail" data-aos="fade-left" >
-          <div class="pro-img">
-            <p class="imgg"><img src="Screenshot 2024-09-14 160732.png" alt="" width="400px"></p>
-          </div>
-          
-          <div class="pro-dis">
-            <div class="pro-discription">
-              As the developer of the Amazon Shopping website, I utilized Html and CSS to create a robust and 
-              dynamic e-commerce platform. The site offers an intuitive shopping experience with clear 
-              navigation, detailed product descriptions, and a seamless checkout process. 
-              My focus on responsive design ensures optimal performance on all devices, enhancing 
-              user engagement and satisfaction.
-            </div>
-
-            <div class="double-btn">
-              <div class="github-btn">
-                <a target="_blank" href="https://github.com/Shama556/Amazon-clone"> Github <i class="fa-brands fa-github-alt"></i></a>
-              </div>
-              <div class="demo-btn">
-                <a target="_blank" href="https://shama556.github.io/Amazon-clone/amazon.html"> Live demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-
-      
-<!-- ----------------------------------------------------Gingle-clone --------------------------------------------- -->
-
-
-      <div class="pro-detail" data-aos="fade-right">
+      <div class="pro-detail">
         <div class="pro-img">
-          <p class="imgg"><img src="Screenshot 2024-09-14 160123.png" alt="" width="400px"></p>
+          <p class="imgg"><img src="Screenshot 2024-09-14 154031.png" alt="" width="100%"></p>
         </div>
-        
+
         <div class="pro-dis">
           <div class="pro-discription">
-            I specialize in developing dynamic and user-centric web solutions using HTML and CSS. 
-            The platform offers comprehensive travel services, including flights, tours, and 
-            hotel bookings, with a focus on providing the best price deals. My work ensures 
-            seamless navigation, engaging visuals, and an optimized user experience, facilitating
+            “🎬 Excited to share my latest project for Namrata Universal
+            - CaratGlitz is a sophisticated e-commerce platform designed for jewelry enthusiasts,
+            showcasing a wide range of exquisite jewelry collections. Built using Html and css,
+            this project aims to provide a seamless shopping experience with a modern user interface.”
+          </div>
+
+          <div class="double-btn">
+            <div class="github-btn">
+              <a target="_blank" href="https://github.com/Shama556/Caratlitz-clone"> Github <i
+                  class="fa-brands fa-github-alt"></i></a>
+            </div>
+            <div class="demo-btn">
+              <a target="_blank" href="https://shama556.github.io/Caratlitz-clone/navbar.html"> Live demo <i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- ----------------------------------------------------AC REPAIR --------------------------------------------- -->
+
+
+      <div class="pro-detail">
+        <div class="pro-img">
+          <p class="imgg"><img src="Screenshot 2024-10-12 113611.png" alt="" width="100%"></p>
+        </div>
+
+        <div class="pro-dis">
+          <div class="pro-discription">
+            Acfixer provides expert air conditioning repair, installation, and maintenance services to keep your home or
+            business cool and comfortable. Our certified technicians offer reliable solutions, competitive pricing, and
+            24/7 emergency support.
+
+            Book your service today for fast and efficient AC solutions!
+          </div>
+
+          <div class="double-btn">
+            <div class="github-btn">
+              <a target="_blank" href="https://github.com/Shama556/Gingle-clone"> Github <i
+                  class="fa-brands fa-github-alt"></i></a>
+            </div>
+            <div class="demo-btn">
+
+              <a target="_blank" href="file:///C:/Users/shama/OneDrive/Desktop/Acfixer/ac-bc.html"> Live demo <i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <!-- ----------------------------------------------------Gingle-clone --------------------------------------------- -->
+
+
+      <div class="pro-detail">
+        <div class="pro-img">
+          <p class="imgg"><img src="Screenshot 2024-09-14 160123.png" alt="" width="100%"></p>
+        </div>
+
+        <div class="pro-dis">
+          <div class="pro-discription">
+            I specialize in developing dynamic and user-centric web solutions using HTML and CSS.
+            The platform offers comprehensive travel services, including flights, tours, and
+            hotel bookings, with a focus on providing the best price deals. My work ensures
+            seamless navigation, engaging visuals, facilitating
             easy access to popular domestic and international travel destinations.
           </div>
 
           <div class="double-btn">
             <div class="github-btn">
-              <a target="_blank" href="https://github.com/Shama556/Gingle-clone"> Github <i class="fa-brands fa-github-alt"></i></a>
+              <a target="_blank" href="https://github.com/Shama556/Gingle-clone"> Github <i
+                  class="fa-brands fa-github-alt"></i></a>
             </div>
             <div class="demo-btn">
 
-              <a target="_blank" href="https://shama556.github.io/Gingle-clone/Untitled-2.html"> Live demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a target="_blank" href="https://shama556.github.io/Gingle-clone/Untitled-2.html"> Live demo <i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
           </div>
 
@@ -840,31 +1178,65 @@
       </div>
 
 
+      <!-- ------------------------------------------Amazon-clone------------------------------------------- -->
+
+
+      <div class="pro-detail">
+        <div class="pro-img">
+          <p class="imgg"><img src="Screenshot 2024-09-14 160732.png" alt="" width="100%"></p>
+        </div>
+
+        <div class="pro-dis">
+          <div class="pro-discription">
+            An Amazon clone website offers a comprehensive, scalable, and user-friendly platform that replicates the
+            essential e-commerce functionality of Amazon. It’s designed for businesses looking to provide a wide array
+            of products to customers, offering seamless user experiences, multiple payment options, and strong
+            administrative control.
+          </div>
+
+          <div class="double-btn">
+            <div class="github-btn">
+              <a target="_blank" href="https://github.com/Shama556/Amazon-clone"> Github <i
+                  class="fa-brands fa-github-alt"></i></a>
+            </div>
+            <div class="demo-btn">
+              <a target="_blank" href="https://shama556.github.io/Amazon-clone/amazon.html"> Live demo <i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
       <!-- -----------------------------------------------------happyshopp ------------------------------------- -->
 
-      <div class="pro-detail" data-aos="fade-left" >
+      <div class="pro-detail">
         <div class="pro-img">
-          <p class="imgg"><img src="Screenshot 2024-09-14 160049.png" alt="" width="400px"></p>
+          <p class="imgg"><img src="Screenshot 2024-09-14 160049.png" alt="" width="100%"></p>
         </div>
-        
+
         <div class="pro-dis">
           <div class="pro-discription">
 
-            As the developer of the Happyshop Shopping website, I Html and css to create a robust 
+            As the developer of the Happyshop Shopping website, I Html and css to create a robust
             and dynamic e-commerce platform. The site offers an intuitive shopping experience
-             with clear navigation, detailed product descriptions, and a seamless checkout process.
-             My focus on responsive design ensures optimal performance on all devices, enhancing 
+            with clear navigation, detailed product descriptions, and a seamless checkout process.
+            My focus on responsive design ensures optimal performance on all devices, enhancing
             user engagement and satisfaction.
           </div>
 
           <div class="double-btn">
             <div class="github-btn">
 
-              <a target="_blank" href="https://github.com/Shama556/happyshopp "> Github <i class="fa-brands fa-github-alt"></i></a>
+              <a target="_blank" href="https://github.com/Shama556/happyshopp "> Github <i
+                  class="fa-brands fa-github-alt"></i></a>
             </div>
             <div class="demo-btn">
 
-              <a target="_blank" href="https://shama556.github.io/happyshopp/e-commerce%20-%20Copy.html"> Live demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a target="_blank" href="https://shama556.github.io/happyshopp/e-commerce%20-%20Copy.html"> Live demo <i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
 
             </div>
           </div>
@@ -872,28 +1244,36 @@
         </div>
       </div>
 
-<!-- ---------------------------------------------------BIRD.1 --------------------------------------------------------- -->
 
-      <div class="pro-detail" data-aos="fade-right">
+
+
+
+
+
+      <!-- ---------------------------------------------------BIRD.1 --------------------------------------------------------- -->
+
+      <div class="pro-detail">
         <div class="pro-img">
-          <p class="imgg"><img src="Screenshot 2024-09-13 215602.png" alt="" width="150px"></p>
+          <p class="imgg"><img src="Screenshot 2024-09-13 215602.png" alt="" width="100%" height="300px"></p>
         </div>
-        
+
         <div class="pro-dis">
           <div class="pro-discription">
 
-            I am exicted to share with you 2D design of Flamingo bird. 
-            which is create this bird using html and css only.
+            I am exicted to share with you 2D design of bird.
+            which is create this bird using html and css only
           </div>
 
           <div class="double-btn">
             <div class="github-btn">
 
-              <a target="_blank" href="https://github.com/Shama556/Project"> Github <i class="fa-brands fa-github-alt"></i></a>
+              <a target="_blank" href="https://github.com/Shama556/Project"> Github <i
+                  class="fa-brands fa-github-alt"></i></a>
             </div>
             <div class="demo-btn">
 
-              <a target="_blank" href="https://shama556.github.io/Project/bird.html"> Live demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a target="_blank" href="https://shama556.github.io/Project/bird.html"> Live demo <i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
 
             </div>
           </div>
@@ -901,30 +1281,91 @@
         </div>
       </div>
 
-    </div>
- 
-
-    </div>
 
 
-    <!-- ------------------------------------------------CONTACT ME---------------------------------------------------- -->
 
 
-    <div class="contact-me">
-      <p class="feel-free"> Feel free to contact me </p>
-      <p class="email"> <i class="fa-regular fa-envelope"></i> Email:- Shamaparveen5297@gmail.com </p>
-      <p class="number"> <i class="fa-solid fa-phone"></i> Phone no:- +91-7982971608</p>
-      <p class="location"> <i class="fa-solid fa-location-dot"></i>  location:-  India (DELHI)</p>
     </div>
 
 
-   
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+  </div>
+
+
+  <!-- ------------------------------------------------CONTACT ME---------------------------------------------------- -->
+
+
+  <div class="contact-me">
+    <p class="feel-free"> Fell free to contact me </p>
+    <p class="email"> <i class="fa-regular fa-envelope"></i> <a href="mailto:shamaparveen5297@gmail.com"> Email:-
+        Shamaparveen5297@gmail.com </a> </p>
+    <p class="number"> <i class="fa-solid fa-phone"></i> <a href="tel:7982971608"> Phone no:- +91-7982971608 </a></p>
+    <p class="location"> <i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/LwChSrWL4PaGTFq67">
+        location:- India (DELHI) </a></p>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init({
-        duration:1200
+      duration: 1200
     });
   </script>
 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+
+
+
+  <script>
+    $(".foot-img").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: false,
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 3,
+        },
+      },
+    });
+  </script>
+
+
+
+  <!-- --------------------------------------------------PRELOADER JS-------------------------------------------------------------- -->
+
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none "
+    })
+  </script>
+
+
+
+
+
+
+
+
 </body>
+
 </html>
