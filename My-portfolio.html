@@ -693,14 +693,20 @@
       margin: 0 auto;
     }
 
-    #preloader {
-      background: rgb(0, 0, 0) url("https://media2.giphy.com/media/uIJBFZoOaifHf52MER/200w.gif?cid=6c09b952yvohhsxafzf69bnjpzvmz1jjiur6xrou7buzt5dx&ep=v1_gifs_search&rid=200w.gif&ct=g") no-repeat center center;
+   
+       #preloader {
+      background: rgb(255, 255, 255) no-repeat center center;
       background-size: 15%;
       height: 100vh;
       width: 100%;
       position: fixed;
       z-index: 99999;
-      /* transition: all 0.6s ease-out; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.6s ease-out;
+      color: black;
+    
     }
 
     .iframe iframe{
@@ -796,6 +802,15 @@
         margin: 0%;
       }
     }
+
+     @media screen and (max-width:800px) {
+      #preloader img {
+        width: 30%;
+      }
+    }
+
+
+    
   </style>
 
 
